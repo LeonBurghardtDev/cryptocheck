@@ -1,0 +1,165 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+# Flutter/Dart specific
+**/build/
+**/ios/Pods/
+**/ios/.symlinks/
+**/android/build/
+**/android/app/build/
+**/android/gradle/
+**/android/gradlew
+**/android/gradlew.bat
+**/*.iml
+**/test_coverage/
+
+# IntelliJ IDEs
+**/*.idea/
+**/*.iml
+**/*.iws
+**/*.ipr
+
+# Android related
+**/*.apk
+**/*.ap_
+**/key.properties
+**/local.properties
+
+# Flutter save and restore tooling
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.flutter-plugins-legacy
+**/.flutter-plugins-metadata
+**/.flutter-plugins-version
+**/.flutter-plugins-dependencies
+**/.flutter_runner/
+
+# Visual Studio Code
+**/.vscode/
+**/*.code-workspace
+
+# macOS
+**/.DS_Store
+
+# Flutter IntelliJ Plugin
+**/.flutter-plugins
+
+# Android Studio
+**/.gradle/
+**/.idea/
+**/*.iml
+**/*.ipr
+**/*.iws
+**/gradle
+**/gradlew
+**/gradlew.bat
+**/local.properties
+
+# Build artifacts
+**/build/
+**/out/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+
+# CocoaPods
+**/ios/Pods/
+**/ios/Runner.xcworkspace
+
+# Flutter Web
+**/web/packages/flutter_web/.dart_tool/
+**/web/packages/flutter_web/assets/
+**/web/packages/flutter_web/test/
+
+# Android Gradle Plugin
+**/android/.gradle/
+**/android/.gradle/**/wrapper/dists/
+**/android/.gradle/**/wrapper/dists/**/gradle-wrapper.jar
+**/android/.gradle/**/wrapper/dists/**/gradle-wrapper.jar.sha256
+**/android/.gradle/**/wrapper/dists/**/gradle-wrapper.jar.zip
+**/android/.gradle/**/wrapper/dists/**/gradle-wrapper.jar.zip.idx
+**/android/.gradle/**/wrapper/dists/**/gradle-wrapper.jar.zip.sha256
+
+# Gradle Wrapper
+**/android/gradlew
+**/android/gradlew.bat
+
+# Gradle files
+**/android/gradle.properties
+**/android/local.properties
+
+# IntelliJ
+**/android/idea/.name
+
+# Keystore files
+**/android/app/*.jks
+**/android/app/**/*.jks
+
+# JUnit test reports
+**/android/app/build/test-results/
+
+# Gradle build cache
+**/android/app/build.cache/
+
+# Android studio patch
+**/*.orig
+
+# Flutter analysis options
+**/analysis_options.yaml
+
+# Flutter dart tool
+**/.dart_tool/
+
+# Flutter persistent tool data
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+
+# VSCode related files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
